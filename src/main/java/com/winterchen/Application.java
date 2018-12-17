@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.winterchen.dao")
-public class Springboot2MybatisDemoApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Springboot2MybatisDemoApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
