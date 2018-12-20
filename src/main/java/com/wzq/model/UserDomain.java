@@ -1,4 +1,4 @@
-package com.winterchen.model;
+package com.wzq.model;
 
 public class UserDomain {
     private Integer id;

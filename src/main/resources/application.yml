@@ -1,7 +1,6 @@
 server:
   port: 8080
 
-
 spring:
     datasource:
         name: mysql_test
@@ -35,7 +34,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.winterchen.model
+  type-aliases-package: com.wzq.model
 
 
 
